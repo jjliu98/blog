@@ -1,0 +1,39 @@
+{
+  "name": "1jjliu98-blog",
+  "version": "1.6.0",
+  "description": "十⁸⁹的个人博客",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vuepress-vite build src",
+    "dev": "vuepress-vite dev src --clean-cache",
+    "preview": "go run ./shell/main.go",
+    "update": "pnpm dlx vp-update",
+    "deploy": "bash ./shell/deploy.sh",
+    "sync": "bash ./shell/sync.sh",
+    "open": "bash ./shell/open.sh",
+    "weekly": "node ./_shell/weekly.js"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.10",
+    "@vuepress/plugin-pwa": "2.0.0-rc.28",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.10",
+    "vuepress-theme-hope": "2.0.0-rc.43"
+  },
+  "dependencies": {
+    "@vue/repl": "^4.1.2",
+    "@vuepress/plugin-feed": "2.0.0-rc.28",
+    "@waline/client": "^3.2.0",
+    "aplayer": "^1.10.1",
+    "art-template": "^4.13.2",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.2",
+    "dayjs": "^1.11.11",
+    "echarts": "^5.5.0",
+    "flowchart.ts": "^3.0.0",
+    "store": "^2.0.12",
+    "vue-router": "^4.3.2",
+    "vuepress-plugin-search-pro": "2.0.0-rc.43"
+  }
+}

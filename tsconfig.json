@@ -1,0 +1,11 @@
+{
+  "include": ["src/.vuepress/**/*.ts", "src/.vuepress/**/*.vue", "src/.vuepress/**/*"],
+  "exclude": ["node_modules", "dist", "__private"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "allowJs": true
+  }
+}

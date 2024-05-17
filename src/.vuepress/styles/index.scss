@@ -1,0 +1,15 @@
+// place your custom styles here
+.none {
+  width: 0;
+  height: 0;
+  user-select: none;
+  pointer-events: none;
+  overflow: hidden;
+  display: none;
+}
+
+// klipse 插件
+.klipse-demo pre {
+  margin: 0;
+  padding: 0;
+}
